@@ -12,6 +12,6 @@ end
 def rev(string)
   array = string.split
   array.count do |i|
-    puts i 
+    i 
   end
 end 
