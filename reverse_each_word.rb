@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-  stringed = %w 
+  stringed = %w[string]
   puts stringed
 end
