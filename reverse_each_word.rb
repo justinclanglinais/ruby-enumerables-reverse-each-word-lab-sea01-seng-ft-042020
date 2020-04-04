@@ -3,5 +3,5 @@ def reverse_each_word(string)
   array = string.split ()
   array.count do |i|
     word_array = i.split ()
-    
+    word_array.reverse_each
 end 
