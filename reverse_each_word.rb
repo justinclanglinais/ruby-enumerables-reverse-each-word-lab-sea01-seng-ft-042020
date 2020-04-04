@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   final_array = []
-  array = %w(string)
+  array = string.split
   array.count do |i|
     word_array = %w(i)
 end 
