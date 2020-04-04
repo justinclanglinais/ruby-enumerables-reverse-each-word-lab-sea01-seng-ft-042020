@@ -9,7 +9,7 @@ def reverse_each_word(string)
   puts final_array
 end 
 
-def reverse_each_word(string)
+def rev(string)
   array = string.split
   array.count do |i|
     puts i 
