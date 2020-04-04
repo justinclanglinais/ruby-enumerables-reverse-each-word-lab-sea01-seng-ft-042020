@@ -8,3 +8,10 @@ def reverse_each_word(string)
   end
   puts final_array
 end 
+
+def reverse_each_word(string)
+  array = string.split
+  array.count do |i|
+    puts i 
+  end
+end 
