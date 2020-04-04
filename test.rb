@@ -10,5 +10,5 @@ def reverse_each_word(string)
 end 
 
 def rev(string)
-  string.split
+  (string.split).map { |i| i.reverse!
 end 
