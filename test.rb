@@ -12,6 +12,6 @@ end
 def rev(string)
   array = string.split
   array.map do |i|
-    i.split
+    i.reverse_each
   end
 end 
