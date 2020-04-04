@@ -11,7 +11,7 @@ end
 
 def rev(string)
   array = string.split
-  array.count do |i|
+  array.map do |i|
     i.split
   end
 end 
